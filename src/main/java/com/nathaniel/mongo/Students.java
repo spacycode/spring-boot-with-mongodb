@@ -17,7 +17,7 @@ public class Students {
     private String id;
     private String firstName;
     private String lastName;
-    @Indexed
+    @Indexed(unique = true)
     private String email;
     private Gender gender;
     private Address address;
